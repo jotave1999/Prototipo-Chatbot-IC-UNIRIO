@@ -1,0 +1,111 @@
+{"intents": [
+        {"tag": "saudacao",
+         "patterns": ["Oi", "Olá", "Como você está?", "Tem alguem ai?", "Oie", "Bom dia", "Boa Tarde", "Boa Noite",  "Como vai?"],
+         "responses": ["Olá, Eu sou um assistente virtual de acesso a informações da UNIRIO, como posso ajudá-lo?"],
+         "context_set": ""
+        },
+        {"tag": "endereco",
+         "patterns": [
+                 "Qual é a localização dos Campus da UNIRIO?",
+                 "localização dos Campus da UNIRIO?",
+                 "Endereço dos Campus da UNIRIO?",
+                 "Endereço",
+                 "Local",
+                 "Localização",
+                 "Onde é o CCET?", 
+                 "Onde é o Centro de Ciências Exatas e Tecnologia?", 
+                 "Qual é o local do Centro de Ciências Exatas e Tecnologia?", 
+                 "Qual é o local do CCET?", 
+                 "Onde fica o prédio do CCET?", 
+                 "Qual o endereço do CCET?",
+                 "Onde é o CCH?", 
+                 "Onde é o Centro de Ciências Humanas e Sociais?", 
+                 "Qual é o local do Centro de Ciências Humanas e Sociais?", 
+                 "Qual é o local do CCH?", 
+                 "Onde fica o prédio do CCH?", 
+                 "Qual o endereço do CCH?"
+                ],
+         "responses": ["Quer saber os endereços dos Campus? No link a seguir você irá encontrar o endereço de todos os Campus da UNIRIO: http://www.unirio.br/localizacao-dos-campi"],
+         "context_set": ""
+        },
+        {"tag": "acessoPortalDoAluno",
+                "patterns": [
+                        "Como acessar o Portal do Aluno",
+                        "Portal do Aluno",
+                        "Qual o link do Portal do Aluno",
+                        "Onde eu encontro o Portal do Aluno",
+                        "Portal do Estudante",
+                        "Portal do Universitário",
+                        "Acesso ao Portal do Aluno"
+                ],
+                "responses": ["O Portal do Aluno pode ser acessado pelo link a seguir: (http://portais.unirio.br:8080/aluno/login.action). Caso tenha alguma dúvida de como fazer o login no portal, acesse o link de instruções na página de login do portal."],
+                "context_set": ""
+        },
+        {"tag": "documentos",
+         "patterns": [
+                 "Como gerar o histórico?",
+                 "Histórico",
+                 "Declaração de matrícula ",
+                 "Declaração",
+                 "Declaração de trancamento",
+                 "Atestado de matrícula",
+                 "Certificado de matrícula",
+                 "Comprovante de matrícula",
+                 "Comprovante de Trancamento",
+                 "Histórico escolar com CR",
+                 "Gerar Histórico Escolar",
+                 "Gerar Declaração de matrícula "
+         ],
+         "responses": ["Para conseguir acesso a documentos como históricos, declarações ou certificados, acesse o Portal do Aluno (http://portais.unirio.br:8080/aluno/login.action) ou entre em contato com a secretaria do seu curso."],
+         "context_set": ""
+        },
+        {"tag": "realizarMatricula",
+         "patterns": [
+                 "Como realizar matrícula em disciplinas?",
+                 "Matrícula em Disciplinas",
+                 "Como se inscrever em uma disciplina.",
+                 "Inscrição em disciplinas",
+                 "Como se inscrever em uma disciplina",
+                 "Como se Matricular em uma disciplina"
+                ],
+         "responses": ["Para se inscrever em uma disciplina você deve acessar o Portal do Aluno (http://portais.unirio.br:8080/aluno/login.action) dentro do periodo de adição de disciplinas e fazer sua solicitação. Ou, pode solicitar a inscrição na disciplina diretamente na secretaria do curso."],
+         "context_set": ""
+        },
+        {"tag": "trancarMatricula",
+                "patterns": [
+                        "Como trancar a matrícula em disciplinas?",
+                        "Trancar Matrícula em Disciplinas",
+                        "Como Trancar uma disciplina.",
+                        "Trancar disciplinas",
+                        "Como trancar a matrícula em uma disciplina"
+                       ],
+                "responses": ["Para trancar a matrícula em uma disciplina você deve entrar em contato com a secretaria do seu curso e realizar a solicitação."],
+                "context_set": ""
+        },
+        {"tag": "calendarioAcademico",
+                "patterns": [
+                        "Qual é o calendário acadêmico?",
+                        "Calendário Acadêmico",
+                        "Calendário das atividades acadêmicas",
+                        "Data de Início das atividades acadêmicas",
+                        "Data de início das atividades letivas",
+                        "Data de término das atividades acadêmicas e letivas",
+                        "Datas do Calendário Acadêmico"
+                       ],
+                "responses": ["O Calendário Atividades Acadêmicas de Graduação da UNIRIO se encontra no link a seguir: http://www.unirio.br/prograd/calendario-academico"],
+                "context_set": ""
+        },
+        {"tag": "notas",
+                "patterns": [
+                        "Onde eu encontro as notas finais das disciplinas?",
+                        "Notas das Disciplinas",
+                        "Notas Finais",
+                        "Notas das Matérias",
+                        "Notas",
+                        "Onde ver as Notas"
+                       ],
+                "responses": ["As notas finais de cada disciplina podem ser encontradas no Portal do Aluno (http://portais.unirio.br:8080/aluno/login.action)"],
+                "context_set": ""
+        }
+   ]
+}
